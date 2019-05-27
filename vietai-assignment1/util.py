@@ -12,7 +12,6 @@ import sys
 import matplotlib.pyplot as plt
 import pdb
 
-
 def load_npy(file_name):
     """load_npy
     Load numpy data file. This is needed as python 2.7 pickle uses ascii as default encoding method but python 3.x uses utf-8.abs
@@ -23,7 +22,7 @@ def load_npy(file_name):
     """
     
     if (sys.version_info[0] >= 3):
-        obj = np.load(file_name, encoding='latin1')
+        obj = np.load(file_name, encoding='latin1', allow_pickle=True)
     elif (sys.version_info[0] >=2):
         obj = np.load(file_name)
     
@@ -101,7 +100,6 @@ def get_mnist_data(sampling_step=20):
     test_y = read_mnist_gz('./data/fashion-mnist/t10k-labels-idx1-ubyte.gz', 8)
     num_train = len(train_y)
     num_test = len(test_y)
-
     train_x = train_x.reshape((num_train, 28*28))
     test_x = test_x.reshape((num_test, 28*28))
 
@@ -118,18 +116,18 @@ def get_mnist_data(sampling_step=20):
     test_y = test_y[0::sampling_step]
 
     # For debugging purpose
-    #train_x = train_x.reshape((num_train, 28, 28))
-    #test_x = test_x.reshape((num_test, 28, 28))
-    #plt.ion()
-    #for i in range(0, num_train, 1000):
+    # train_x = train_x.reshape((num_train, 28, 28))
+    # test_x = test_x.reshape((num_test, 28, 28))
+    # plt.ion()
+    # for i in range(0, num_train, 1000):
     #    img = train_x[i,:,:]
     #    plt.clf()
     #    plt.imshow(img, cmap='gray')
     #    plt.show()
     #    plt.pause(0.1)
     #    print(i)
-
-    #for i in range(0, num_test, 100):
+    #
+    # for i in range(0, num_test, 100):
     #    img = test_x[i,:,:]
     #    plt.clf()
     #    plt.imshow(img, cmap='gray')
@@ -141,5 +139,5 @@ def get_mnist_data(sampling_step=20):
 
 
 if __name__ == '__main__':
-    # get_mnist_data()
-    get_vehicle_data()
+    # get_vehicle_data()
+    get_mnist_data()

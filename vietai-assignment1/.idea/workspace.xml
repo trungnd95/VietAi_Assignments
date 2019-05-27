@@ -3,20 +3,60 @@
   <component name="ChangeListManager">
     <list default="true" id="c85383fc-9771-4c5b-8d75-aa4f8d0f0b90" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3676856">
+    <splitter split-orientation="horizontal" split-proportion="0.49274406">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/logistic_tf.py">
+          <file leaf-file-name="softmax_np.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/softmax_np.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+                <state relative-caret-position="69">
+                  <caret line="183" column="4" lean-forward="false" selection-start-line="183" selection-start-column="4" selection-end-line="183" selection-end-column="4" />
+                  <folding>
+                    <element signature="e#383#401#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="softmax_tf.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/softmax_tf.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="315">
+                  <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#351#369#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="optimizer.py" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/anaconda3/envs/VietAI_Ass_01/lib/python3.7/site-packages/tensorflow/python/training/optimizer.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="280">
+                  <caret line="415" column="47" lean-forward="true" selection-start-line="415" selection-start-column="47" selection-end-line="415" selection-end-column="47" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="gradient_descent.py" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/anaconda3/envs/VietAI_Ass_01/lib/python3.7/site-packages/tensorflow/python/training/gradient_descent.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="196">
+                  <caret line="33" column="6" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -24,41 +64,48 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/util.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/logistic_np.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="108">
-                  <caret line="186" selection-start-line="186" selection-end-line="207" selection-end-column="46" />
-                  <folding>
-                    <element signature="e#154#172#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/softmax_np.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="413">
-                  <caret line="143" column="16" lean-forward="true" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
-                  <folding>
-                    <element signature="e#55#73#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
+        <splitter split-orientation="vertical" split-proportion="0.5">
+          <split-first>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file leaf-file-name="util.py" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/util.py">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="126">
+                      <caret line="24" column="69" lean-forward="false" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
+                      <folding>
+                        <element signature="e#75#88#0" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="logistic_np.py" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/logistic_np.py">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="31">
+                      <caret line="265" column="40" lean-forward="true" selection-start-line="265" selection-start-column="40" selection-end-line="265" selection-end-column="40" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file leaf-file-name="logistic_tf.py" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/logistic_tf.py">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="705">
+                      <caret line="94" column="89" lean-forward="true" selection-start-line="94" selection-start-column="89" selection-end-line="94" selection-end-column="89" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
       </split-second>
     </splitter>
   </component>
@@ -67,49 +114,98 @@
       <find>1.5</find>
       <find>1.10</find>
       <find>test_y</find>
-      <find>test(</find>
       <find>2.1</find>
       <find>normalize_all_pixel</find>
+      <find>2.6</find>
+      <find>Epoch</find>
+      <find>test</find>
+      <find>test(</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/util.py" />
-        <option value="$PROJECT_DIR$/logistic_np.py" />
         <option value="$PROJECT_DIR$/logistic_tf.py" />
+        <option value="$PROJECT_DIR$/logistic_np.py" />
         <option value="$PROJECT_DIR$/softmax_np.py" />
+        <option value="$PROJECT_DIR$/softmax_tf.py" />
+        <option value="$PROJECT_DIR$/util.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="57" />
-    <option name="y" value="-4" />
-    <option name="width" value="1309" />
-    <option name="height" value="772" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="27" />
+    <option name="width" value="1920" />
+    <option name="height" value="1173" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="vietai-assignment1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vietai-assignment1" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vietai-assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vietai-assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vietai-assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vietai-assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vietai-assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vietai-assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fashion-mnist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -123,9 +219,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.logistic_np">
-    <configuration name="logistic_np" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="vietai-assignment1" />
+  <component name="RunManager" selected="Python.softmax_tf">
+    <configuration default="false" name="logistic_np" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -136,17 +231,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="vietai-assignment1" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logistic_np.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
+      <method />
     </configuration>
-    <configuration name="logistic_tf" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="vietai-assignment1" />
+    <configuration default="false" name="logistic_tf" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -157,17 +248,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="vietai-assignment1" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logistic_tf.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
+      <method />
     </configuration>
-    <configuration name="util" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="vietai-assignment1" />
+    <configuration default="false" name="util" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -178,22 +265,197 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="vietai-assignment1" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
+      <method />
     </configuration>
+    <configuration default="false" name="softmax_np" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="vietai-assignment1" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softmax_np.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="softmax_tf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="vietai-assignment1" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softmax_tf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="vietai-assignment1" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="vietai-assignment1" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="vietai-assignment1" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="vietai-assignment1" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="vietai-assignment1" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="vietai-assignment1" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.logistic_np" />
+      <item index="1" class="java.lang.String" itemvalue="Python.logistic_tf" />
+      <item index="2" class="java.lang.String" itemvalue="Python.util" />
+      <item index="3" class="java.lang.String" itemvalue="Python.softmax_np" />
+      <item index="4" class="java.lang.String" itemvalue="Python.softmax_tf" />
+    </list>
     <recent_temporary>
-      <list>
-        <item itemvalue="Python.logistic_np" />
-        <item itemvalue="Python.logistic_tf" />
-        <item itemvalue="Python.util" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.softmax_tf" />
+        <item index="1" class="java.lang.String" itemvalue="Python.softmax_np" />
+        <item index="2" class="java.lang.String" itemvalue="Python.util" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -209,98 +471,195 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="-4" width="1309" height="772" extended-state="6" />
+    <frame x="0" y="27" width="1920" height="1173" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09342834" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.609538" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39940387" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32935917" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.25931445" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="right" id="R Packages" order="4" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12291667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919848" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6851145" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/preprocess_vehicle_data.py">
+    <entry file="file://$PROJECT_DIR$/logistic_tf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/VietAi_ass_01/lib/python3.7/site-packages/numpy/random/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/VietAi_ass_01/lib/python3.7/site-packages/sklearn/metrics/classification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="114" column="4" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/1726679617/numpy/random/mtrand.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1604" column="4" selection-start-line="1604" selection-start-column="4" selection-end-line="1604" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/VietAi_ass_01/lib/python3.7/site-packages/tensorflow/python/ops/variables.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1222" column="6" selection-start-line="1222" selection-start-column="6" selection-end-line="1222" selection-end-column="6" />
+        <state relative-caret-position="242">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        <state relative-caret-position="682">
+          <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+          <folding>
+            <element signature="e#75#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistic_np.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4004">
+          <caret line="186" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="207" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/softmax_np.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#383#401#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logistic_tf.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+          <folding>
+            <element signature="e#75#88#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logistic_np.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="186" selection-start-line="186" selection-end-line="207" selection-end-column="46" />
-          <folding>
-            <element signature="e#154#172#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="4004">
+          <caret line="186" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="207" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/softmax_np.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="143" column="16" lean-forward="true" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#55#73#0" expanded="true" />
+            <element signature="e#383#401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocess_vehicle_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/VietAi_ass_01/lib/python3.7/site-packages/numpy/random/__init__.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/VietAi_ass_01/lib/python3.7/site-packages/sklearn/metrics/classification.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/1726679617/numpy/random/mtrand.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/VietAi_ass_01/lib/python3.7/site-packages/tensorflow/python/ops/variables.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/VietAI_Ass_01/lib/python3.7/site-packages/scipy/sparse/coo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="329" column="0" lean-forward="true" selection-start-line="329" selection-start-column="0" selection-end-line="329" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/VietAI_Ass_01/lib/python3.7/site-packages/sklearn/metrics/classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1796">
+          <caret line="186" column="4" lean-forward="false" selection-start-line="186" selection-start-column="4" selection-end-line="186" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistic_tf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="94" column="89" lean-forward="true" selection-start-line="94" selection-start-column="89" selection-end-line="94" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/VietAI_Ass_01/lib/python3.7/site-packages/tensorflow/python/training/gradient_descent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="33" column="6" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/VietAI_Ass_01/lib/python3.7/site-packages/tensorflow/python/training/optimizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="415" column="47" lean-forward="true" selection-start-line="415" selection-start-column="47" selection-end-line="415" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/softmax_np.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="183" column="4" lean-forward="false" selection-start-line="183" selection-start-column="4" selection-end-line="183" selection-end-column="4" />
+          <folding>
+            <element signature="e#383#401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistic_np.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="265" column="40" lean-forward="true" selection-start-line="265" selection-start-column="40" selection-end-line="265" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/softmax_tf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#351#369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="24" column="69" lean-forward="false" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
+          <folding>
+            <element signature="e#75#88#0" expanded="true" />
           </folding>
         </state>
       </provider>

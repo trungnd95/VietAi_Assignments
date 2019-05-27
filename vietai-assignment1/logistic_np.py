@@ -68,7 +68,7 @@ class LogisticClassifier(object):
         
         :return w_grad: has the same shape as self.w
         """ 
-        # [TODO 1.7] - Doing by Trung Nguyen - 25/05/2019
+        # [TODO 1.7] - Doing by Trung Ng - 25/05/2019
         #            - State:
         # Compute the gradient of w, it has the same size of w
 
@@ -201,7 +201,7 @@ def normalize_all_pixel(train_x, test_x):
     train_mean = np.divide(np.sum(train_x),
                            (number_of_train_images * image_width * image_height))
 
-    train_std = np.sqrt(np.divide(np.sum(train_x - train_mean),
+    train_std = np.sqrt(np.divide(np.sum((train_x - train_mean) ** 2),
                                   (number_of_train_images * image_width * image_height)))
 
     train_x = (train_x - train_mean) / train_std
