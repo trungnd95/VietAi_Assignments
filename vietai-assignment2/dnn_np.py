@@ -2,6 +2,10 @@
 Solution of deep neural network implementation using numpy
 Author: Kien Huynh 
 Modified by : Phuong Hoang
+--------------------------------------------
+Editor: Trung Ng
+Date: 03/06/2019
+VietAi Ha Noi - Course 04 - 2019
 """
 
 import numpy as np
