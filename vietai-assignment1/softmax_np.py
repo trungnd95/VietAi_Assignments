@@ -35,10 +35,11 @@ class SoftmaxClassifier(LogisticClassifier):
     
         :param x: input
         """
-        # [TODO 2.3]
+        # [TODO 2.3] - Doing by Trung Ng
+        #            - State: Done
         # Compute softmax
-
-        return None
+        e_x = np.exp(x)
+        return e_x / e_x.sum(axis=1).T
 
 
     def feed_forward(self, x):

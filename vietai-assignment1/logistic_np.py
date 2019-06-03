@@ -69,7 +69,7 @@ class LogisticClassifier(object):
         :return w_grad: has the same shape as self.w
         """ 
         # [TODO 1.7] - Doing by Trung Ng - 25/05/2019
-        #            - State:
+        #            - State: Done
         # Compute the gradient of w, it has the same size of w
 
         w_grad = np.dot(np.transpose(x), (y_hat - y)) / y.shape[0]
@@ -107,7 +107,7 @@ class LogisticClassifier(object):
         try:
             assert(momentum.shape == self.w.shape)
         except AssertionError:
-            print()
+            print("Momentum shape has to be the same with w!")
         momentum = momentum_rate * momentum + learning_rate * grad
         self.w = self.w - momentum
 
