@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../vietai-assignment1/.idea/vietai-assignment1.iml" filepath="$PROJECT_DIR$/../vietai-assignment1/.idea/vietai-assignment1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/vietai-assignment2.iml" filepath="$PROJECT_DIR$/.idea/vietai-assignment2.iml" />
     </modules>
   </component>

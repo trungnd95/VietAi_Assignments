@@ -14,6 +14,7 @@ from util import *
 from activation_np import *
 from gradient_check import *
 import pdb
+import random
 
 debug = True
 class Config(object):
@@ -171,14 +172,14 @@ class NeuralNet(object):
         # [TODO 1.3.1] - Doing by Trung Ng - 03/06/2019
         #            - State: Done
         # Estimating cross entropy loss from s and y
-        data_loss = - np.sum( np.sum(y * np.log(s), axis=1) ) / y.shape[0]
+        data_loss = - np.sum(np.sum(y * np.log(s), axis=1)) / y.shape[0]
 
         # Estimating regularization loss from all layers
         # [TODO 1.3.2] - Doing by Trung Ng - 03/06/2019
         #            - State: Done
         reg_loss = 0.0
-        for l in len(self.layers):
-            reg_loss += ( 1 / 2 * self.reg * np.sum(np.square(self.layers[l].w)) )
+        for l in range(len(self.layers)):
+            reg_loss += (1 / 2 * self.reg * np.sum(np.square(self.layers[l].w)))
         data_loss += reg_loss / y.shape[0]
 
         return data_loss
@@ -318,7 +319,43 @@ def minibatch_train(net, train_x, train_y, cfg):
     :param cfg: Config object
     """
     # [TODO 1.6] Implement mini-batch training
-    pass
+    #            - Doing by Trung Ng - 03/06/2019
+    #            - State: Done
+    all_loss = []
+
+    for epo in range(cfg.num_epoch):
+        print("Epoch {0} begin ===============> {0}".format(epo + 1))
+
+        # Shuffle data to increase the randomness
+        random.shuffle(train_x)
+        train_set_x = train_x[:cfg.num_train].copy()
+        train_set_y = train_y[:cfg.num_train].copy()
+        train_set_y = create_one_hot(train_set_y, net.num_class)
+        if debug:
+            print("Training dataset: {0}, {1}".format(train_set_x.shape, train_set_y.shape))
+
+        # Divide train set into smaller mini-batches
+        total_lost_patch = 0.0
+        for index, patch_seq in enumerate(range(0, len(train_set_x), cfg.batch_size)):
+            print("\tPatch {}".format(index + 1))
+            patch_train_set_x = train_set_x[patch_seq:patch_seq + cfg.batch_size]
+            patch_train_set_y = train_set_y[patch_seq:patch_seq + cfg.batch_size]
+            all_patch_x = net.forward(patch_train_set_x)
+            s_patch = all_patch_x[-1]
+            loss = net.compute_loss(patch_train_set_y, s_patch)
+            grads = net.backward(patch_train_set_y, all_patch_x)
+            net.update_weight(grads, cfg.learning_rate)
+            total_lost_patch += loss
+            print("\t\t Loss is %.5f" % loss)
+
+        all_loss.append(total_lost_patch / cfg.batch_size)
+        print("Epoch %d : loss is %.5f" % (epo + 1, total_lost_patch / cfg.batch_size))
+        if cfg.visualize and epo % cfg.epochs_to_draw == cfg.epochs_to_draw - 1:
+            s = net.forward(train_x[0::3])[-1]
+            visualize_point(train_x[0::3], train_y[0::3], s)
+            plot_loss(all_loss, 2)
+            plt.show()
+            plt.pause(0.01)
 
 
 def batch_train(net, train_x, train_y, cfg):
@@ -345,7 +382,7 @@ def batch_train(net, train_x, train_y, cfg):
 
         all_loss.append(loss)
 
-        if (cfg.visualize and e % cfg.epochs_to_draw == cfg.epochs_to_draw - 1):
+        if cfg.visualize and e % cfg.epochs_to_draw == cfg.epochs_to_draw - 1:
             s = net.forward(train_x[0::3])[-1]
             visualize_point(train_x[0::3], train_y[0::3], s)
             plot_loss(all_loss, 2)
@@ -440,4 +477,4 @@ if __name__ == '__main__':
     bat_classification()
     # mnist_classification()
 
-    pdb.set_trace()
+    # pdb.set_trace()

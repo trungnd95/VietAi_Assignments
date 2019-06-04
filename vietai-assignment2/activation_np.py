@@ -96,7 +96,7 @@ def softmax(x):
     """
     if isinstance(x, np.ndarray):
         e_x = np.exp(x)
-        return e_x / e_x.sum(axis=0) if e_x.ndim == 1 else e_x / e_x.sum(axis=1).T
+        return e_x / e_x.sum(axis=0) if e_x.ndim == 1 else e_x / e_x.sum(axis=1).reshape(x.shape[0], 1)
     else:
         raise TypeError("Input type should be numpy array")
 
