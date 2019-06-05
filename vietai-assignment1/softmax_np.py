@@ -281,6 +281,7 @@ if __name__ == "__main__":
     for e in range(num_epoch):
         print("Epoch --------> {}".format(e))
         train_y_hat = dec_classifier.feed_forward(train_x)
+        print(train_y_hat[0])
         val_y_hat = dec_classifier.feed_forward(val_x)
 
         train_loss = dec_classifier.compute_loss(train_y, train_y_hat)

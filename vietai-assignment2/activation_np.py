@@ -1,6 +1,8 @@
 """activation_np.py
 This file provides activation functions for the NN 
 Author: Phuong Hoang
+
+---------------------------------
 Editor: Trung Ng
 Date: 02/06/2019
 VietAi Ha Noi - Course 04 - 2019
@@ -114,6 +116,6 @@ def softmax_minus_max(x):
             return e_x / e_x.sum(axis=0)
         else:
             e_x = np.exp(x - np.max(x, axis=1, keepdims=True))
-            return e_x / e_x.sum(axis=1).T
+            return e_x / e_x.sum(axis=1, keepdims=True)
     else:
         raise TypeError("Input type should be numpy array")
